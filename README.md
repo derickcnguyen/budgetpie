@@ -1,4 +1,4 @@
-# Expense Tracker App: Overview
+# Budget Pie: Overview
 
 ## Resources and Technologies used
 
