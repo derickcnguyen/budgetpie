@@ -1,50 +1,21 @@
 # Expense Tracker App: Overview
 
-## Deployment
-This app is being deployed using Netlify  
-Link to app: https://expense-tracker-react-ts-app.netlify.app
-
-## Motivation Behind Project 
-As a university student it is very important to be able to keep track of where I am spending my money. Many of the expense tracking websites and apps
-either lack functionality or in design.  
-I decided to create an expense tracking app that has both the functionality and the design.  
-This project was also a great chance for me to learn the Mantine UI library.
-
 ## Resources and Technologies used
+
 Technologies: ReactJS, React Router, React Icons, TypeScript, Mantine UI, HTML canvas API, Local Storage, and ViteJS.  
-React Docs Beta: https://beta.reactjs.org/  
 React Router Docs: https://reactrouter.com/en/main  
 React Icons Website: https://react-icons.github.io/react-icons  
 Mantine UI Docs: https://mantine.dev/pages/getting-started/  
-Canvas API Docs: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API  
+Canvas API Docs: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
-## Quick Description of app
-<ul>
-<li>This app includes the common expense tracking features such as a total budget and expenses counter as well as transaction history.   </li>
-<li>The user is able to reset both budget and expenses amount as well as delete a transaction. After a transaction is deleted the effect it had on the budget / expenses is undone.  </li>
-<li>Clicking on a transaction reveals more information about it as well as giving the user the ability to delete the transaction.  </li>
-<li>The app also includes the ability to categorize expenses. The user can pick out of 3 pre-existing categories or create their own.  </li>
-<li>The user is also able to view their Budget and Expenses in a pie chart to easily visualize their financial state.  </li>
-<li>The user is also able to select either a dark or light theme for their app.  </li>
-<li>All user's data is stored in their browser's local storage.  </li>
-</ul>
+## App Description
+
+<ul> <li>The app offers standard expense tracking features, including a total budget and expense counter, along with a transaction history.</li> <li>Users can reset both their budget and expenses, as well as delete transactions. When a transaction is deleted, its impact on the budget and expenses is also removed.</li> <li>Clicking on a transaction displays additional details and provides the option to delete it.</li> <li>The app allows users to categorize their expenses. They can choose from three predefined categories or create custom ones.</li> <li>Users can view their budget and expenses in a pie chart for a clear visual representation of their financial situation.</li> <li>The app supports both dark and light themes, allowing users to select their preferred appearance.</li> <li>All user data is saved in the browser’s local storage.</li> </ul>
 
 ## What I Learned
-<ul>
-<li>I advanced my knowledge of types and type safety in TypeScript and became more familair with the langauge.  </li>
-<li>I learned more about React hooks, mainly the useContext hook and how it can be very useful when state is passed down multiple components.  </li>
-<li>I learned how to use Mantine UI library and the components and hooks it provides.  </li>
-<li>I learned about HMLT canvas API and how to use it to draw a simple pie chart.  </li>
-<li>I learned how to use some external React libraries such as react router and react icons.  </li>
-<li>I learned how to use ViteJS to create a React project that uses TypeScript as an alternative to using create-react-app and manually integrating TypeScript.  </li>
-<li>I became more familar with inline CSS styling in React componenets.  </li>
-<li>I became more familair with JavaScript and its built in methods for arrays such as forEach, map, filter and reduce.  </li>
-</ul>
 
-## Steps going forward
-<ul>
-<li>I plan to learn how to use Redux for state management.  </li>
-<li>I plan to experience with other UI libraries such as Material UI and Chakara UI.  </li>
-<li>I plan to make this app mobile responsive throught CSS media queries or using TailwindCSS  </li>
-<li>I plan to learn how to add a backend to the expense tracker app and use a database (most likely MongoDB) to store the data instead of local storage.  </li>
-</ul>
+<ul> <li>Advanced knowledge of TypeScript types and type safety, becoming more familiar with the language.</li> <li>Gained deeper insights into React hooks, particularly the useContext hook, and its utility in managing state across multiple components.</li> <li>Acquired experience with the Mantine UI library, utilizing its components and hooks.</li> <li>Explored the HTML Canvas API to create a basic pie chart.</li> <li>Utilized external React libraries, including react-router and react-icons.</li> <li>Learned to use ViteJS for setting up a TypeScript-based React project, offering an alternative to create-react-app and manual TypeScript integration.</li> <li>Improved skills in inline CSS styling within React components.</li> <li>Enhanced understanding of JavaScript, focusing on array methods such as forEach, map, filter, and reduce.</li> </ul>
+
+## Potential Future Upgrades
+
+<ul> <li>Upgrade the app by implementing Redux for more robust state management.</li> <li>Explore additional UI libraries, such as Material UI and Chakra UI, to enhance the user interface.</li> <li>Improve mobile responsiveness by integrating CSS media queries or adopting TailwindCSS.</li> <li>Add backend functionality to the expense tracker, incorporating a database (likely MongoDB) for data storage instead of relying on local storage.</li> </ul>
